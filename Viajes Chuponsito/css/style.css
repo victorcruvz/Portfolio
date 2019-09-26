@@ -1,0 +1,106 @@
+html{
+  font-size: 62.5%; /**Resset para Rems - 62.5% = 10px de 16px**/
+}
+
+body{
+  font-family: 'Livvic', sans-serif;
+}
+
+.contenedor{
+  max-width: 110rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.titulo h1{
+  font-size: 3.7rem;
+  margin-top: 10rem;
+}
+
+.logo a{
+  font-size: 6rem;
+  color: black;
+  text-decoration: none;
+  font-family: fantasy;
+}
+
+.slogan h3{
+  font-size: 2rem;
+}
+
+/*Utilidades*/
+.seccion  {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contenedor h2{
+  font-size: 5rem;
+}
+
+.contenedor p{
+  font-size: 2rem;
+}
+
+.inicio{
+  background-image: url(../imagenes/fondo.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 60vh;
+  min-height: 5rem;
+}
+
+.barra{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+/*Navegacion*/
+.navegacion a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 2rem;
+}
+
+.navegacion a:hover{
+    color: yellow;
+}
+
+.navegacion a:last-of-type{
+  margin: 0;
+}
+
+/*Iconos nosotros*/
+.iconos-nosotros-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconos-nosotros-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconos-nosotros-1 h3{
+  font-size: 3rem;
+}
+
+.iconos-nosotros-1 p{
+  font-size: 1.5rem;
+}
+
+.iconos-nosotros-2 h3{
+  font-size: 3rem;
+}
+
+.iconos-nosotros-2 p{
+  font-size: 1.5rem;
+}
+
+.icono{
+  flex-basis: calc(48% - 1rem);
+}
